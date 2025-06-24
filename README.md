@@ -28,7 +28,7 @@ Below are brief instructions on the layout set-up.
 - download the file [./ArmenianPhonetic.icns](./ArmenianPhonetic.icns) and folder [./ArmenianPhonetic.bundle](./ArmenianPhonetic.bundle) and copy them to `~/Library/Keyboard Layouts/` directory, in order to see Library folder you will need to go to home folder in finder ( Command-Shift-H) and in View->Show View Options (Command-J) check "Show Library Folder", see the screen in [screen](./screenshots/)
 - or if you fluent with terminal and git tools you can run the following command(it clones git repo into folder, copy needed files into layouts directory and cleanups/deletes the git repo folder):
 ```sh
-git clone git@github.com:vahe-evoyan/armenian-phonetic.git && cp -r ./armenian-phonetic/ArmenianPhonetic.bundle ./armenian-phonetic/ArmenianPhonetic.icns  ~/Library/Keyboard\ Layouts/ && rm -rf ./armenian-phonetic/
+git clone git@github.com:VaheM27/armenian-phonetic.git && cp -r ./armenian-phonetic/ArmenianPhonetic.bundle ./armenian-phonetic/ArmenianPhonetic.icns  ~/Library/Keyboard\ Layouts/ && rm -rf ./armenian-phonetic/
 ```
 Here is what you should see in folder `~/Library/Keyboard Layouts/` when browsing from finder or looking by terminal:
 [layouts folder in finder](./screenshots/manual-setup-library-keyboard-layouts-folder-finder.png),
